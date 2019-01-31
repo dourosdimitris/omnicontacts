@@ -17,7 +17,7 @@ module OmniContacts
         @contacts_host = "api.linkedin.com"
         @contacts_path = "/v1/people/~/connections:(id,first-name,last-name,picture-url)"
         @self_host = "www.linkedin.com"
-        @profile_path = "/oauth2/v1/userinfo"
+        @profile_path = "/oauth2/v2/userinfo"
         @state = (args[3] && args[3][:state])
       end
 
